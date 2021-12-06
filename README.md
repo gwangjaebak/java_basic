@@ -1,2 +1,2 @@
-# Java_Basic
+# java_basic
 Step 1
