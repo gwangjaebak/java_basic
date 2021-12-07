@@ -1,6 +1,8 @@
 package com.javaex.problem02;
 
-import java.util.Scanner;
+import java.util.*;
+
+//	조건대로 못 풀었는데, 조건 맞춰서 풀어보기
 
 public class FriendApp {
 
@@ -19,11 +21,16 @@ public class FriendApp {
         
         
         // 입력받은 친구정보를 공백으로 분리
+        
         String[] fr4 = fr1.split(" ");
         String[] fr5 = fr2.split(" ");
         String[] fr6 = fr3.split(" ");
         
         // Friend 객체 생성하여 데이터 넣기
+        
+        Friend result1 = new Friend(fr4[0], fr4[1], fr4[2]);
+        Friend result2 = new Friend(fr5[0], fr5[1], fr5[2]);
+        Friend result3 = new Friend(fr6[0], fr6[1], fr6[2]);
         
         // 배열에 추가하기
 
